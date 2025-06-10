@@ -1,6 +1,7 @@
 package br.edu.ifms.AirlineManagement.models;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Min;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,6 +22,7 @@ public class Airplane {
   private String fabricante;
 
   @Column(nullable = false)
+  @Min(1)
   private int capacidadePassageiros;
 
   @Column(nullable = false)
