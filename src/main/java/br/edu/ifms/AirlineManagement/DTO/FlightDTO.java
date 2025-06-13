@@ -1,7 +1,6 @@
 package br.edu.ifms.AirlineManagement.DTO;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.List;
 
 public record FlightDTO(String origem,

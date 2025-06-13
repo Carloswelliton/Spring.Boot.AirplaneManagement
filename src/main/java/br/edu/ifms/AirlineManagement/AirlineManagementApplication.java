@@ -16,7 +16,7 @@ public class AirlineManagementApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		VerifyInfo verify = new VerifyInfo();
-		verify.cpfValidate("056.724.661-24");
+		verify.cpfValidate("056.724.661-25");
 
 	}
 }
