@@ -28,6 +28,6 @@ public class Airplane {
   @Column(nullable = false)
   private int anoDeFabricacao;
 
-  @Column(nullable = false)
+  @Column(nullable = false, unique = true)
   private int registro;
 }

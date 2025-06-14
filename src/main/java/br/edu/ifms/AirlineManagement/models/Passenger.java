@@ -16,7 +16,7 @@ public class Passenger extends Person{
   private String passportNumber;
 
   @ManyToOne
-  @JoinColumn(name="flight_id", nullable=false)
+  @JoinColumn(name="flight_id")
   private Flight flight;
 
 
